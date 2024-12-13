@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: sans-serif;
+  background-image: url(images/pexels-lum3n-44775-399161.jpg);
+  background-size: 100%;
+}
+
+.toDoContainer1 {
+  margin-top: 20px;
+  background-color: transparent;
+  border-radius: 50px;
+  margin-right: 25%;
+  float:right;
+  width: 800px;
+  max-height: 500px; /* Belirlenen maksimum yükseklik */
+  overflow-y: auto; /* Dikey kaydırma çubuğu */
+  padding: 10px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 0 6px 4px #B38485;
+  -moz-box-shadow: 0 0 6px 4px #B38485;
+  box-shadow: 0 0 6px 4px #B38485;
+}
+.container {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+.kaldır_btn {
+  /* margin-top: 13px; */
+  float: right;
+  border-radius: 23px;
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 6px 4px black;
+  -moz-box-shadow: 0 0 6px 4px black;
+  box-shadow: 0 0 6px 4px black;
+  transition: all 0.9s;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+   
+}
+/* .kaldır_btn:hover {
+  color: black;
+  padding: 0px 14px;
+} */
+#eklebuton {
+  border: none;
+  color: #fff;
+  background-color: green;
+  font-weight: 900;
+  letter-spacing: 1px;
+  padding: 6px 20px;
+  border-radius: 25px;
+  transition: all 0.5s;
+}
+#eklebuton:hover {
+  background-color: darkgray;
+  color: black;
+  padding: 10px 24px;
+}
+#eklebuton:active {
+  transition: all 0s;
+  background-color: black;
+  color: #fff;
+}
+#temizlebuton {
+  border: none;
+  color: #fff;
+  background-color: red;
+  padding: 6px 20px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  border-radius: 25px;
+  transition: all 0.5s;
+}
+#temizlebuton:hover {
+  background-color: darkgray;
+  color: black;
+  padding: 10px 24px;
+}
+#temizlebuton:active {
+  transition: all 0s;
+  background-color: black;
+  color: #fff;
+}
+#inputText {
+  width: 500px;
+  height: 50px;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+  border: 3px solid orange;
+  border-radius: 25px;
+  transition: all 0.8s;
+}
+/* #inputText:hover{
+    width: 500px;
+    height: 50px;
+} */
+#title {
+  margin-right: 10%;
+  letter-spacing: 2px;
+  font-size: 40px;
+  color: blueviolet;
+  transition: all 0.8s;
+}
+#title:hover {
+  font-size: 60px;
+}
+
+.toDo {
+  color: #6e1e4f;
+  font-size: 35px;
+  text-transform: capitalize;
+  float: left;
+  margin: 10px;
+
+  padding-left: 20px;
+  text-align: left;
+  width: 750px;
+  height: auto;
+  background-color: transparent;
+
+  border-radius: 25px;
+  transition: all 0.9s;
+  -webkit-box-shadow: 0 0 6px 4px black;
+  -moz-box-shadow: 0 0 6px 4px black;
+  box-shadow: 0 0 6px 4px black;
+}
+/* .toDo:hover {
+  width: 30%;
+  height: 50px;
+} */
+.remove {
+  background-color: #fff;
+}
+
+.liste {
+  text-decoration: line-through;
+  color: #2e2e2e;
+  background-color: #33b248;
+  -webkit-box-shadow: 0 0 6px 4px black;
+  -moz-box-shadow: 0 0 6px 4px black;
+  box-shadow: 0 0 6px 4px black;
+  -webkit-box-shadow: inset 0 0 30px rgb(149, 236, 159);
+  -moz-box-shadow: inset 0 0 30px rgb(149, 236, 159);
+  box-shadow: inset 0 0 30px rgb(149, 236, 159);
+}
+.closeliste {
+  color: blueviolet;
+  text-decoration: none;
+}
+/* rgba(229, 229, 228, 0.837)
+rgb(236, 226, 226) */
